@@ -7,6 +7,7 @@ import { deleteComment } from '../../actions/post';
 const CommentItem = ({
   postId,
   comment: { _id, text, name, avatar, user, date },
+  deleteComment,
   auth,
 }) => {
   return (
